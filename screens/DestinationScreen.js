@@ -52,7 +52,7 @@ export default function DestinationScreen(props) {
                     {item.title}
                 </Text>
                 <Text style={{fontSize: wp(6), color: theme.text}} className="font-semibold">
-                   $ {item?.price}
+                   PHP {item?.price}
                 </Text>
             </View>
             <Text style={{fontSize: wp(5)}} className="text-neutral-700 tracting-wide mb-2">{item?.longDescription}</Text>
